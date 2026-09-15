@@ -4,3 +4,4 @@ const submitBtn = document.getElementById('submit-btn2');
 function print(text) {
   gameText.innerText += text + "\n";
   gameText.innerscrollTop = gameText.scrollHeight;
+}
