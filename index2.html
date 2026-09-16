@@ -1,1 +1,122 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Personal Webpage</title>
+<style>
+body {
+	background-color: powderblue;
+	font-family: Arial;
+	color: black;
+	text-align: center;
+     }
+div.header {
+		background-color: tomato;
+		color: white;
+		text-align: center;
+		padding: 20px;
+	}
+h1 {
+	color: navy;
+	font-size 36px;
+     }
+p {
+	font-size: 18px;
+     }
+.grid-container {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	gap: 10px;
+	background-color: #f8f8f8;
+	padding: 10px;
+}
+.grid-item {
+	background-color: #4CAF50;
+	color: white;
+	padding: 20px;
+	text-align: center;
+}
 
+.button-transition {
+   background-color: navy;
+   color:white;
+   padding: 10px 20px;
+   transition: background-color 1s ease;
+   border: none;
+   cursor: pointer;
+}
+
+.button-transition:hover {
+  background-color: tomato;
+}
+img {
+	widh: 200px;
+	height: 125px;
+	border-radius: 50%;
+	border: 3px solid green;
+	margin-top: 10px;
+}
+.flex-container {
+    display: flex;
+    justify-content: space-around;
+    bacground-color: lightgray;
+    padding: 20px;
+}
+.flex-item {
+  background-color: steelblue;
+  color: white;
+  padding: 20px;
+  width: 30%;
+  text-align: center;
+}
+</style>
+</head>
+<body>
+<div class = "header">
+<h1>Welcome to My Personal Webpage,</h1>
+<p>This is a simple example of an HTML, JavaScript, and CSS personal webpage.</p>
+<pre style = "font-size: 24px";>
+Name: Bryan Rader
+Age: 41
+Location: Kansas City, MO.
+</pre>
+<br>
+
+<div class="grid-container">
+
+<div class="grid-item"><a href = "https://www.shooterspool.net/" style = "color:black"; target =
+"_blank";>
+<button class = "button-transition">pool simulater</button></a></div>
+
+<div class="grid-item"></div>
+
+<div class="grid-item"><a href = "jsadventure.html" style = "color:black"; target
+= "_blank";>
+<button class = "button-transition">JavaScript Adventure
+Game</button></a></div>
+
+<div class="grid-item"></div>
+
+<div class="grid-item"><a href = "adventure.html" style = "color:black"; target
+= "_blank";>
+<button class = "button-transition">Adventure Game
+Webpage</button></a></div>
+
+<div class="grid-item"></div>
+
+</div>
+</div>
+<div class="flex-container">
+   <div class="flex-item">
+<p>Check out my favorite website:
+<a href="https://www.youtube.com/"target="_blank">YouTube</a></p></div>
+
+<div class="flex-item">
+<a href="https://github.com/raderbryan071-png/Bryan-s-user-page" target="_blank">
+  <img src="https://github.com/raderbryan071-png/Bryan-s-user-page/blob/main/20260911_082142.jpg?raw=true" alt="my Image"title="Github"></a></div>
+
+<div class="flex-item">
+<p>Email me at the following address: <a href="mailto:raderbryan071@gmail.com"
+target="_blank">raderbryan071@gmail.com</a></p></div>
+</div>
+</body>
+</html>
