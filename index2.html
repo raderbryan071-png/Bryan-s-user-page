@@ -95,6 +95,33 @@ img {
 .table-style2 th {
 	background-color: lightgreen;
       }
+div.mycontainer {
+	width:66%;
+	overflow:auto;
+     }
+div.mycontainer div {
+	width:50%;
+	float:left;
+     }
+.list-style1 {
+	list-style-type: square;
+	color: darkblue;
+	text-align: left;
+	     margin:20px;
+     }
+.list-style2 {
+	list-style-type: circle;
+	color: darkgreen;
+	text-align: left;
+	     margin:20px;
+      }
+.video {
+	width:50%;
+	margin:10px auto;
+	text-align: center;
+	border: 3px solid green;
+	background-color: DarkTurquoise;
+        }
 </style>
 </head>
 <body>
@@ -185,24 +212,32 @@ target="_blank">raderbryan071@gmail.com</a></p></div>
 </table>
 </div>
 </div>
-<h2>My Fvorite Foods</h2>
-<ul>
+<div class = "mycontainer">
+<div style = "background-color: LightCyan";>
+<h2>My Favorite Foods</h2>
+<ul class="list-style1">
 <li>Lazzagna</li>
 <li>Spaghetti</li>
 <li>Feddicine</li>
 </ul>
+</div>
+<div style = "background-color: Aquamarine";>
 <h2>My Favorite Drinks</h2>
-<ul>
+<ul class="list-style2">
 <li>Coffee</li>
 <li>Pepsi</li>
 <li>Coke</li>
 </ul>
+</div>
+</div>
 <br><br><br>
+<div class = "video">
 <h2>My Favorite Video</h2>
 <video width="480" height="360" controls>
 <source src="https://github.com/raderbryan071-png/Bryan-s-user-page/blob/main/I%20Met%20the%20Most%20Talkative%20Stray%20Cat%20Ever.mp4?raw=True">
 Your browse does not support the video tag.
 </video>
+</div>
 <h2>Embedded Website</h2>
 <iframe src="https://quirkycort.github.io/gears/public/" width="700"
 height"466" style="border: none;"></iframe>
